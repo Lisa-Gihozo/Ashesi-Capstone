@@ -1,0 +1,46 @@
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Flask-specific
+instance/
+
+# Virtual environment
+venv/
+env/
+myenv/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.temp
+*.tmp
+
+# Large files and models
+model_high/
+model_medium/
+model_baseline/
+
+# Jupyter Notebook files
+*.ipynb_checkpoints
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg
+*.egg-info
