@@ -125,4 +125,4 @@ def transcribe_baseline():
         return jsonify({'error': 'Error uploading file.'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)
